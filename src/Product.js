@@ -1,8 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { useReactToPrint } from "react-to-print";
 import { useRef } from "react";
-import { useParams, useNavigate, Link } from "react-router";
+import { useParams, Link } from "react-router";
 import { useGlobalContext } from "./GlobalContext";
 
 function Product(props) {
