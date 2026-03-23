@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
 import readXlsxFile from "read-excel-file/browser";
-import { useRef } from "react";
 import _ from "lodash";
 import { Link } from "react-router";
 import { useGlobalContext } from './GlobalContext';
